@@ -5,8 +5,8 @@ public class Spawner : MonoBehaviour {
 
 	public GameObject enemy;
 	private int delayTime = 0;
-	private const int MAX_DELAY = 360;
-	private const int MIN_DELAY = 180;
+	private const int MAX_DELAY = 180;
+	private const int MIN_DELAY = 30;
 
 	// Use this for initialization
 	void Start () {
@@ -15,6 +15,9 @@ public class Spawner : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (Player.player.isDead) {
+			return;
+		}
 		this.delayTime--;
 		if (this.delayTime <= 0) {
 			this.resetDelay();

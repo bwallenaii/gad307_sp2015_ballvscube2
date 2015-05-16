@@ -12,13 +12,15 @@ public class Enemy : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		if (Player.player.isDead) {
+			this.die ();
+		}
 	}
 
 	void OnCollisionEnter(Collision col){
 		if (col.gameObject.name == "BackWall") {
 			this.die();
-			Player.player.getHit();
+			Player.player.getHit(RDice.Roll(6) + 3);
 		}
 	}
 
