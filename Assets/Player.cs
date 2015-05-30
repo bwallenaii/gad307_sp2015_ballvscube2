@@ -14,8 +14,9 @@ public class Player : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (this.isDead) {
-			return;
+		if (Input.anyKeyDown && this.isDead) {
+			Application.LoadLevel("landing");
+			Menu.gameOver(this.score);
 		}
 		if (Input.anyKeyDown && this.energy > ENERGY_DRAIN) {
 			GameObject blt = (GameObject) Instantiate(bullet, transform.position, transform.rotation);

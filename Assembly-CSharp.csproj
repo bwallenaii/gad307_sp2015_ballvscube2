@@ -50,6 +50,7 @@
      <Compile Include="Assets\Enemy.cs" />
      <Compile Include="Assets\EnergyManager.cs" />
      <Compile Include="Assets\LifeManager.cs" />
+     <Compile Include="Assets\Menu.cs" />
      <Compile Include="Assets\Particle.cs" />
      <Compile Include="Assets\Player.cs" />
      <Compile Include="Assets\RDice.cs" />

@@ -1,12 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\ballvcube\Assets\Bullet.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Menu.cs">
     <Files>
-      <File FileName="..\ballvcube\Assets\Player.cs" Line="1" Column="1" />
-      <File FileName="..\ballvcube\Assets\Bullet.cs" Line="56" Column="33" />
-      <File FileName="..\ballvcube\Assets\Enemy.cs" Line="16" Column="27" />
-      <File FileName="..\ballvcube\Assets\Particle.cs" Line="13" Column="27" />
-      <File FileName="..\ballvcube\Assets\Spawner.cs" Line="34" Column="2" />
+      <File FileName="Assets\Menu.cs" Line="40" Column="3" />
+      <File FileName="Assets\Player.cs" Line="19" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
