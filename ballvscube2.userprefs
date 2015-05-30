@@ -1,15 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\EnergyManager.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\ballvcube\Assets\Bullet.cs">
     <Files>
-      <File FileName="Assets\Bullet.cs" Line="17" Column="4" />
-      <File FileName="Assets\Enemy.cs" Line="1" Column="1" />
-      <File FileName="Assets\Particle.cs" Line="1" Column="1" />
-      <File FileName="Assets\ScoreManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Player.cs" Line="19" Column="4" />
-      <File FileName="Assets\LifeManager.cs" Line="26" Column="2" />
-      <File FileName="Assets\Spawner.cs" Line="19" Column="11" />
-      <File FileName="Assets\EnergyManager.cs" Line="8" Column="34" />
+      <File FileName="..\ballvcube\Assets\Player.cs" Line="1" Column="1" />
+      <File FileName="..\ballvcube\Assets\Bullet.cs" Line="56" Column="33" />
+      <File FileName="..\ballvcube\Assets\Enemy.cs" Line="16" Column="27" />
+      <File FileName="..\ballvcube\Assets\Particle.cs" Line="13" Column="27" />
+      <File FileName="..\ballvcube\Assets\Spawner.cs" Line="34" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
